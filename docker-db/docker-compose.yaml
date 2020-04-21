@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+
+  petclinic_db:
+    image: harman191/springinitdb:v1
+    restart: always 
+    environment:
+    - DATASOURCE_SCHEMA="~/spring-petclinic-rest/src/main/resources/db/mysql/initDB.sql"
+    - DATASOURCE_DATA="~/spring-petclinic-rest/src/main/resources/db/mysql/populateDB.sql"
+    - INITIALIZE_DB="true"
+    - MYSQL_ROOT_PASSWORD=
+    - MYSQL_ALLOW_EMPTY_PASSWORD=true
+    - MYSQL_USER=petclinic
+    - MYSQL_PASSWORD=petclinic
+    - MYSQL_DATABASE=petclinic
+    ports:
+      - "3306:3306"
+
