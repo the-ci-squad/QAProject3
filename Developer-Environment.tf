@@ -11,9 +11,11 @@ module "dev_environment" {
   source                        = "Azure/compute/azurerm"
   resource_group_name           = azurerm_resource_group.dev_environment.name
   vm_hostname                   = "DevelopmentVm"
-  nb_public_ip                  = 0
+
+  nb_public_ip                  = "0"
+
   remote_port                   = "22"
-  nb_instances                  = 3
+  nb_instances                  = 1
   vm_os_publisher               = "Canonical"
   vm_os_offer                   = "UbuntuServer"
   vm_os_sku                     = "18.04-LTS"

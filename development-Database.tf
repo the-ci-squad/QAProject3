@@ -3,7 +3,10 @@ module "Database" {
   source                        = "Azure/compute/azurerm"
   resource_group_name           = azurerm_resource_group.dev_environment.name
   vm_hostname                   = "Database"
-  nb_public_ip                  = 0
+
+  public_ip_dns                 = ["devdbdfsfdsfdsf"]
+  nb_public_ip                  = "1"
+
   remote_port                   = "22"
   nb_instances                  = 1
   vm_os_publisher               = "Canonical"
@@ -33,7 +36,6 @@ module "Database" {
 output "Database_vm_private_ips" {
   value = module.Database.network_interface_private_ip
 }
-
 
 output "Database_vm_public_ip" {
   value = module.Database.public_ip_address

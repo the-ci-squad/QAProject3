@@ -3,7 +3,8 @@ module "CiServer" {
   source                        = "Azure/compute/azurerm"
   resource_group_name           = azurerm_resource_group.dev_environment.name
   vm_hostname                   = "CiServer"
-  nb_public_ip                  = 0
+  public_ip_dns                 = ["cidfsfdsfdsf"]
+  nb_public_ip                  = "1"
   remote_port                   = "22"
   nb_instances                  = 1
   vm_os_publisher               = "Canonical"

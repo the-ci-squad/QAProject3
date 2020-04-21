@@ -3,7 +3,10 @@ module "Orchestration" {
   source                        = "Azure/compute/azurerm"
   resource_group_name           = azurerm_resource_group.dev_environment.name
   vm_hostname                   = "Orchestration"
-  nb_public_ip                  = 0
+
+  public_ip_dns                 = ["orchdfsfdsfdsf"]
+  nb_public_ip                  = "1"
+
   remote_port                   = "22"
   nb_instances                  = 1
   vm_os_publisher               = "Canonical"
@@ -29,11 +32,9 @@ module "Orchestration" {
   enable_accelerated_networking = false
 }
 
-
 output "Orchestration_vm_private_ips" {
   value = module.Orchestration.network_interface_private_ip
 }
-
 
 output "Orchestration_vm_public_ip" {
   value = module.Orchestration.public_ip_address
