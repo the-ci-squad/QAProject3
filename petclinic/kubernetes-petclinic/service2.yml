@@ -7,8 +7,8 @@ spec:
     app: front
   ports:
   - protocol: TCP
-    port: 8081
-    targetPort: 8081
+    port: 4200
+    targetPort: 4200
   type: LoadBalancer
 ---
 apiVersion: apps/v1
@@ -28,6 +28,6 @@ spec:
     spec:
       containers:
       - name: front
-        image: marem/springpetclinic_front:latest
+        image: stef260695/front:latest
         ports:
-        - containerPort: 8081
+        - containerPort: 4200
