@@ -1,11 +1,11 @@
 
 module "Orchestration" {
-  source                        = "Azure/compute/azurerm"
-  resource_group_name           = azurerm_resource_group.dev_environment.name
-  vm_hostname                   = "Orchestration"
+  source              = "Azure/compute/azurerm"
+  resource_group_name = azurerm_resource_group.dev_environment.name
+  vm_hostname         = "Orchestration"
 
-  public_ip_dns                 = ["orchdfsfdsfdsf"]
-  nb_public_ip                  = "1"
+  public_ip_dns = ["${terraform.workspace}-orchestration"]
+  nb_public_ip  = "1"
 
   remote_port                   = "22"
   nb_instances                  = 1

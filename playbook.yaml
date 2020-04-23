@@ -1,3 +1,8 @@
+- hosts: Docker
+  become: yes
+  roles:
+  - Docker
+
 - hosts: Load_Balancer
   become: yes
   roles:
@@ -7,11 +12,6 @@
   become: yes
   roles:
   - Ci_Server
-
-- hosts: Docker
-  become: yes
-  roles:
-  - Docker
 
 - hosts: Database
   become: yes

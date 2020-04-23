@@ -1,11 +1,13 @@
+
 provider "azurerm" {
   features {}
 }
 
 resource "azurerm_resource_group" "dev_environment" {
-  name     = "dev_environment"
+  name     = "${terraform.workspace}-environment"
   location = "uk south"
 }
+
 
 module "network" {
   source              = "Azure/network/azurerm"

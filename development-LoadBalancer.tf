@@ -1,11 +1,11 @@
 
 module "LoadBalancer" {
-  source                        = "Azure/compute/azurerm"
-  resource_group_name           = azurerm_resource_group.dev_environment.name
-  vm_hostname                   = "LoadBalancer"
+  source              = "Azure/compute/azurerm"
+  resource_group_name = azurerm_resource_group.dev_environment.name
+  vm_hostname         = "LoadBalancer"
 
-  public_ip_dns                 = ["loaddfsfdsfdsf"]
-  nb_public_ip                  = "1"
+  public_ip_dns = ["${terraform.workspace}-load-balancer"]
+  nb_public_ip  = "1"
 
   remote_port                   = "22"
   nb_instances                  = 1

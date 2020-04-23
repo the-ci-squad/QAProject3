@@ -3,7 +3,7 @@ module "CiServer" {
   source                        = "Azure/compute/azurerm"
   resource_group_name           = azurerm_resource_group.dev_environment.name
   vm_hostname                   = "CiServer"
-  public_ip_dns                 = ["cidfsfdsfdsf"]
+  public_ip_dns                 = ["${terraform.workspace}-ci-server"]
   nb_public_ip                  = "1"
   remote_port                   = "22"
   nb_instances                  = 1

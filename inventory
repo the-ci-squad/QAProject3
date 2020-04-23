@@ -1,5 +1,6 @@
 [Load_Balancer]
-51.140.124.62
+51.143.191.97
+51.145.10.114
 
 [Load_Balancer:vars]
 ansible_user=app-dev
@@ -7,7 +8,8 @@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 ansible_ssh_private_key_file=~/.ssh/id_rsa
 
 [Ci_Server]
-51.140.60.231
+51.145.7.208
+51.143.190.241
 
 [Ci_Server:vars]
 ansible_user=jenkins
@@ -17,8 +19,10 @@ ansible_sudo_pass=$password
 
 
 [Docker]
-51.140.113.115
-51.140.60.183
+51.145.21.61
+51.145.21.169
+51.140.102.90
+51.145.10.114
 
 [Docker:vars]
 ansible_user=app-dev
@@ -27,7 +31,8 @@ ansible_ssh_private_key_file=~/.ssh/id_rsa
 
 
 [Database]
-51.140.113.115
+51.145.21.61
+51.145.21.169
 
 [Docker:vars]
 ansible_user=app-dev
@@ -36,7 +41,8 @@ ansible_ssh_private_key_file=~/.ssh/id_rsa
 
 
 [Kubernetes]
-51.140.60.183
+51.140.102.90
+51.145.17.150
 
 [Kubernetes:vars]
 ansible_user=app-dev
@@ -44,10 +50,11 @@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 ansible_ssh_private_key_file=~/.ssh/id_rsa
 
 [Azure-cli]
-51.140.60.183
+51.140.102.90
+51.145.17.150
 
 [Azure-cli:vars]
 ansible_user=app-dev
 ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 ansible_ssh_private_key_file=~/.ssh/id_rsa
-
+:
