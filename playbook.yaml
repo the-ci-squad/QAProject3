@@ -18,3 +18,12 @@
   roles:
   - Database
 
+- hosts: Kubernetes
+  become: yes
+  roles:
+  - Kubernetes
+
+- hosts: Azure-cli
+  become: yes
+  roles:
+  - Azure-cli
