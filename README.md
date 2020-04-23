@@ -88,15 +88,23 @@ During the decision making process was driven by Trainer Jay Grindrod acting as 
 
 
 <a name="UserCases"></a>
-## User Cases
+## User Stories
 
 
 <a name="Risk"></a>
-## Risk Analysis
-
+## Risk Assessment
 
 <a name="Technology"></a>
 ## Technologies Used
+
+*Trello
+*Ansible
+*Terraform
+*Azure
+*Jenkins
+*Kubernetes
+*Docker
+*Nginx
 
 <a name="Testing"></a>
 ## Testing
