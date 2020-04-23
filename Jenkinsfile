@@ -18,7 +18,8 @@ pipeline{
 		    ssh -i ~/id_rsa app-dev@51.145.17.150 << EOF
 		    rm -rf spring-petclinic-rest
 		    rm -rf spring-petclinic-angular
-		    git clone https://github.com/spring-petclinic/spring-petclinic-rest 
+		    git clone --single-branch --branch stef-develop https://github.com/spring-petclinic/spring-petclinic-rest 
+		   
 		    git clone https://github.com/spring-petclinic/spring-petclinic-angular
 		    cd spring-petclinic-rest 
 				docker start rest || docker run --name rest -p 9966:9966 springcommunity/spring-petclinic-rest
