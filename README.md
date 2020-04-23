@@ -97,14 +97,14 @@ During the decision making process was driven by Trainer Jay Grindrod acting as 
 <a name="Technology"></a>
 ## Technologies Used
 
-*Trello
-*Ansible
-*Terraform
-*Azure
-*Jenkins
-*Kubernetes
-*Docker
-*Nginx
++ Trello
++ Ansible
++ Terraform
++ Azure
++ Jenkins
++ Kubernetes
++ Docker
++ Nginx
 
 <a name="Testing"></a>
 ## Testing
