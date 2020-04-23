@@ -38,6 +38,7 @@ The pipeline structure we decided upon made use of Version control system Git wi
 Terraform is being used to actively create the Virtual Machines through the Azure CLI, then Ansible is being applied to create and set up the environments, Git is then used to pull relevant files to their intended environments, once the source code is editted and pushed (uploaded) to Git this will invoke Jenkins to build, test and deploy the product using Kubernetes. 
 
 #### *Pipeline*
+
 ![](https://github.com/the-ci-squad/QAProject3/blob/tino_terraform_ansible/README_FILES/INITAL-CI-PIPELINE-DESIGN.jpg)
 
 
