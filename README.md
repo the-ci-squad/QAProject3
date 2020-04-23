@@ -107,6 +107,10 @@ During the decision making process was driven by Trainer Jay Grindrod acting as 
 <a name="Risk"></a>
 ## Risk Assessment
 
+![](https://github.com/the-ci-squad/QAProject3/blob/master/README_FILES/Capture.PNG)
+![](https://github.com/the-ci-squad/QAProject3/blob/master/README_FILES/Capture2.PNG)
+![](https://github.com/the-ci-squad/QAProject3/blob/master/README_FILES/Capture3.PNG)
+
 <a name="Technology"></a>
 ## Technologies Used
 
