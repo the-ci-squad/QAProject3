@@ -22,7 +22,10 @@
 The brief for this project was to plan, design and implement a solution for automating the deployments and development workflows of the following projects:
  
 **Frontend client** https://github.com/spring-petclinic/spring-petclinic-angular
+
 **Backend API** https://github.com/spring-petclinic/spring-petclinic-rest
+
+More info on the Source Code: https://projects.spring.io/spring-petclinic/
  
  
 #### *Intended Solution*
