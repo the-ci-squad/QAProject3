@@ -6,16 +6,30 @@
 //deploy actual frontend 
 pipeline{
 	agent any
+	//tools { 
+        //	maven 'Maven 3.3.9' 
+        //	jdk 'jdk8' 
+    	//}
 	stages{
-		stage('Deploy Application'){
-			steps{
-				sh """
-				ssh groupproject@ << EOF
-				rm -rf spring-petclinic-angular
-				git clone https://github.com/spring-petclinic/spring-petclinic-angular.git
-				cd spring-petclinic-angular
-				"""
-			}
+	    stage('Deploy'){
+		steps{
+		    sh '''
+		    pwd
+		    ssh -i ~/id_rsa app-dev@51.140.60.183 << EOF
+		    rm -rf spring-petclinic-rest
+		    rm -rf spring-petclinic-angular
+		    git clone https://github.com/spring-petclinic/spring-petclinic-rest 
+		    git clone https://github.com/spring-petclinic/spring-petclinic-angular
+		    cd spring-petclinic-rest 
+                    docker start rest || docker run --name rest -p 9966:9966 springcommunity/spring-petclinic-rest
+		    
+		    cd .. 
+		    cd spring-petclinic-angular
+		    
+		    
+		    
+		    '''
 		}
+	    }
 	}
 }
