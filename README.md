@@ -82,11 +82,11 @@ During the decision making process was driven by Trainer Jay Grindrod acting as 
 
 ### Sprints
 #### *Sprint 1*
-![](https://github.com/the-ci-squad/QAProject3/README_FILES/Sprint1.png)
+![](https://github.com/the-ci-squad/QAProject3/blob/master/README_FILES/Sprint1.PNG)
 #### *Sprint 2*
-![](https://github.com/the-ci-squad/QAProject3/README_FILES/Sprint2.png)
+![](https://github.com/the-ci-squad/QAProject3/blob/master/README_FILES/Sprint2.PNG)
 #### *Sprint 3*
-![](https://github.com/the-ci-squad/QAProject3/README_FILES/Sprint3.png)
+![](https://github.com/the-ci-squad/QAProject3/blob/master/README_FILES/Sprint3.PNG)
 
 
 <a name="UserCases"></a>
