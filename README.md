@@ -82,11 +82,11 @@ During the decision making process was driven by Trainer Jay Grindrod acting as 
 
 ### Sprints
 #### *Sprint 1*
-![](https://github.com/the-ci-squad/QAProject3/blob/tino_terraform_ansible/README_FILES/Sprint1.png
+![](https://github.com/the-ci-squad/QAProject3/README_FILES/Sprint1.png)
 #### *Sprint 2*
-![](https://github.com/the-ci-squad/QAProject3/blob/tino_terraform_ansible/README_FILES/Sprint2.png
+![](https://github.com/the-ci-squad/QAProject3/README_FILES/Sprint2.png)
 #### *Sprint 3*
-![](https://github.com/the-ci-squad/QAProject3/blob/tino_terraform_ansible/README_FILES/Sprint3.png
+![](https://github.com/the-ci-squad/QAProject3/README_FILES/Sprint3.png)
 
 
 <a name="UserCases"></a>
