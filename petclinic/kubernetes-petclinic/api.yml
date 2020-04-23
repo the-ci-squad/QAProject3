@@ -27,6 +27,6 @@ spec:
     spec:
       containers:
       - name: api
-        image: stef260695/api:latest
+        image: stef260695/api:v1
         ports:
         - containerPort: 9966

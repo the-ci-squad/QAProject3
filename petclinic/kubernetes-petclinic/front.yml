@@ -28,6 +28,6 @@ spec:
     spec:
       containers:
       - name: front
-        image: stef260695/front:latest
+        image: tinokingstone/front:v1
         ports:
         - containerPort: 4200
