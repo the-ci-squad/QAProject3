@@ -51,12 +51,8 @@ Terraform is being used to actively create the Virtual Machines through the Azur
 #### *Plans*
 As this project has such large goal with a sample amount of time and no communication with developers it was important to have adequate planning, internal communication methods and project management in place. For this we decided that we would have 1 a daily Scrum and subsequent meetings when necessary. The scrums were used largely for most of the planning but unlike traditional planning meetings scrums core values are to instill courage, focus, respect, openness and commitment in relation to a project and its team. To track our plan we used Trello, an online, Kanban-style, list-making application, to keep track of progress, any issues and completed tasks. To communicate we utilised Microsoft Teams as it was convenient and had screen sharing capablities which would help with troubleshooting team members' issues.  
 
-A link for further information about Scrums, Teams and Trello
-https://www.scrum.org/resources/what-is-scrum
+A link for further information about [Scrums](https://www.scrum.org/resources/what-is-scrum), [Teams](https://www.microsoft.com/en-gb/microsoft-365/microsoft-teams/group-chat-software) and [Trello](https://help.trello.com/article/708-what-is-trello)
 
-https://www.microsoft.com/en-gb/microsoft-365/microsoft-teams/group-chat-software
-
-https://help.trello.com/article/708-what-is-trello
 
 #### *Team members*
 Tino - https://github.com/tinokingstone
@@ -70,16 +66,16 @@ Harman - https://github.com/hman191
 
 
 #### *Roles/Tasks:* 
-Stef - Kubernetes/Docker
+Stef Angelova- Kubernetes/Docker
 
-Tino - Terraform/Ansible/Docker
+Tino Mushangwe- Terraform/Ansible/Docker
 
-Benjie - Jenkins/Ansible/Docker
+Benjie Asare- Jenkins/Ansible/Docker
 
-Harman - SQL/General Assistance/Docker
+Harman Marwaha- SQL/General Assistance/Docker
 
 #### *Scrum Master* 
-Harman
+Harman Marwaha
 
 #### *Decision-Making*
 During the decision making process was driven by Trainer Jay Grindrod acting as the Product Owner and listening in on Scrums and certain meeting that would coincide with the Product Owners interests. Within the team any major decisons would be discussed and the approach would be decided based on which option was deemed most logical. These approaches would then be added to the Trello/planning board in order to keep track of the progress being made.
