@@ -15,7 +15,7 @@ pipeline{
 		steps{
 		    sh '''
 		    pwd
-		    ssh -i ~/var/jenkins_home/id_rsa app-dev@51.145.17.150 << EOF
+		    ssh -i ~/id_rsa app-dev@51.145.17.150 << EOF
 		    rm -rf spring-petclinic-rest
 		    rm -rf spring-petclinic-angular
 		    git clone --single-branch --branch stef-develop https://github.com/the-ci-squad/QAProject3/tree/stef-develop/petclinic/spring-petclinic-backend/spring-petclinic-rest
