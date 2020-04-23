@@ -70,13 +70,13 @@ Harman - https://github.com/hman191
 
 
 #### *Roles/Tasks:* 
-Stef -Terraform/Kubernetes
+Stef - Kubernetes/Docker
 
-Tino - Ansible/Nginx
+Tino - Terraform/Ansible/Docker
 
-Benjie - Jenkins/Ansible
+Benjie - Jenkins/Ansible/Docker
 
-Harman - SQL/ Kubernetes
+Harman - SQL/General Assistance/Docker
 
 #### *Scrum Master* 
 Harman
