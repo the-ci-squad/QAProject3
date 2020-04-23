@@ -15,7 +15,7 @@ pipeline{
 		steps{
 		    sh '''
 		    pwd
-		    ssh -i ~/id_rsa app-dev@51.140.60.183 << EOF
+		    ssh -i ~/id_rsa app-dev@51.145.17.150 << EOF
 		    rm -rf spring-petclinic-rest
 		    rm -rf spring-petclinic-angular
 		    git clone https://github.com/spring-petclinic/spring-petclinic-rest 
