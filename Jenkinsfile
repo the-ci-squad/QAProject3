@@ -6,7 +6,7 @@ pipeline{
                 steps{
                       sh """
                       ssh -i ~/id_rsa app-dev@51.145.17.150 <<EOF
-                      ls -al
+                      ls 
                     
                    
                        """
@@ -16,10 +16,10 @@ pipeline{
                 steps{
                       sh """                  
                       ssh -i ~/id_rsa app-dev@51.145.17.150 <<EOF
-                      ls -al
+        
                       rm -rf QAProject3
                       git clone --single-branch --branch stef-develop https://github.com/the-ci-squad/QAProject3
-                      sudo apt install-y kubectl
+                      sudo apt install -y kubectl
                       sudo az aks install-cli
                       cd QAProject3/petclinic/
                       kubectl apply -f /kubernetes-petclinic
