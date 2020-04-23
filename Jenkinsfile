@@ -5,7 +5,7 @@ pipeline{
             stage('test mvp services'){
                 steps{
                       sh """
-                     ssh -i ~/id_rsa tinokingstone@51.145.17.150 <<EOF
+                     ssh -i ~/id_rsa app-dev@51.145.17.150 <<EOF
                     ls -al
                    
                     """
@@ -14,7 +14,7 @@ pipeline{
              stage('launch mvp'){
                 steps{
                       sh """                  
-                    ssh -i ~/id_rsa tinokingstone@51.145.17.150 <<EOF
+                    ssh -i ~/id_rsa app-dev@51.145.17.150 <<EOF
                     ls -al
 
                     """
