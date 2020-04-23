@@ -23,13 +23,12 @@ pipeline{
                       sudo az aks install-cli
                       cd QAProject3/petclinic/kubernetes-petclinic
                       kubectl apply -f api.yml
-                     
-                      
-                      
-                      
-                      
-         
-          
+                      kubectl apply -f front.yml
+                      kubectl scale deployments/api --replicas=3 
+                      kubectl scale deployments/front --replicas=3
+                   
+ 
+                 
                       """
                }
             }
