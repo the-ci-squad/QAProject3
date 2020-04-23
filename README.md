@@ -107,7 +107,6 @@ During the decision making process was driven by Trainer Jay Grindrod acting as 
 <a name="Risk"></a>
 ## Risk Assessment
 
-The risk assesment can be viewed [here](file:///C:/Users/stefi/Downloads/Risk%20Ass%20Proj%203.pdf)
 <a name="Technology"></a>
 ## Technologies Used
 
