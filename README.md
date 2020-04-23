@@ -54,16 +54,22 @@ https://help.trello.com/article/708-what-is-trello
 
 ### *Team members*
 Tino - https://github.com/tinokingstone
+
 Benjie - https://github.com/BenjieA
+
 Stef - https://github.com/stefangelova
+
 Harman - https://github.com/hman191
 
 
 
 ### *Roles/Tasks:* 
 Stef -Terraform/Kubernetes
+
 Tino - Ansible/Nginx
+
 Benjie - Jenkins/Ansible
+
 Harman - SQL/ Kubernetes
 
 ### *Scrum Master* 
