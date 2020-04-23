@@ -21,8 +21,8 @@ pipeline{
                       git clone --single-branch --branch stef-develop https://github.com/the-ci-squad/QAProject3
                       sudo apt install -y kubectl
                       sudo az aks install-cli
-                      cd QAProject3/petclinic/
-                      kubectl apply -f /kubernetes-petclinic
+                      cd QAProject3/petclinic/kubernetes-petclinic
+                      kubectl apply -f api.yml
                      
                       
                       
