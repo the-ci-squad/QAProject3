@@ -6,7 +6,7 @@
 * [Introduction](#Introduction) -*Project Brief, Intended Solution*
 * [CI/CD Pipeline](#dep_pipeline) -*Description, Pipeline*
 * [Planning](#planning) -*Plans, Members, Roles, Decision-Making*
-* [Use Cases](#UserCases)
+* [User Stories](#UserCases) -*Developer Stories, User's Stories*
 * [Risk Analysis](#Risk) 
 * [Technologies Used](#Technology)-*Ansible, Azure, Git, Jenkins, Kubernetes, Terraform, Nginx* 
 * [Testing](#Testing)
@@ -80,11 +80,28 @@ Harman Marwaha
 #### *Decision-Making*
 During the decision making process was driven by Trainer Jay Grindrod acting as the Product Owner and listening in on Scrums and certain meeting that would coincide with the Product Owners interests. Within the team any major decisons would be discussed and the approach would be decided based on which option was deemed most logical. These approaches would then be added to the Trello/planning board in order to keep track of the progress being made.
 
-
+### Sprints
+#### *Sprint 1*
+![](https://github.com/the-ci-squad/QAProject3/blob/tino_terraform_ansible/README_FILES/Sprint1.png
+#### *Sprint 2*
+![](https://github.com/the-ci-squad/QAProject3/blob/tino_terraform_ansible/README_FILES/Sprint2.png
+#### *Sprint 3*
+![](https://github.com/the-ci-squad/QAProject3/blob/tino_terraform_ansible/README_FILES/Sprint3.png
 
 
 <a name="UserCases"></a>
 ## User Stories
+#### *Developer Stories*
++ As a developer, I would like to deploy my application using the CI pipeline in order to allow for continuous integration
++ As a developer i would like access to a development environment to test and build my application
++ As a developer I would like the database to be communicating with the back-end in order to display information and so that users can add their own if required
++ As a developer, I would prefer minimal down-time while the website is updating to ensure the smoothest user experience possible
++ As a developer, I would like for the front-end to be the only part accessible to users in order to ensure only devs and engineers can make changes to the functionality/code
++ As a developer, I would like to see an acceptable percentage coverage and majority of testing to pass in order to ensure the application is reliable
+
+#### *User's Stories*
++ As a user, I would like the website to be secure to ensure safety of my personal information
++ As a user, I would like to input my own information to update the database with my information
 
 
 <a name="Risk"></a>
@@ -93,14 +110,14 @@ During the decision making process was driven by Trainer Jay Grindrod acting as 
 <a name="Technology"></a>
 ## Technologies Used
 
-+ Trello
 + Ansible
-+ Terraform
 + Azure
++ Docker
 + Jenkins
 + Kubernetes
-+ Docker
 + Nginx
++ Terraform
++ Trello
 
 <a name="Testing"></a>
 ## Testing
