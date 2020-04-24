@@ -5,12 +5,12 @@
 ## Contents 
 * [Introduction](#Introduction) -*Project Brief, Intended Solution*
 * [CI/CD Pipeline](#dep_pipeline) -*Description, Pipeline*
-* [Planning](#planning) -*Plans, Members, Roles, Decision-Making*
+* [Planning](#planning) -*Plans, Members, Roles, Decision-Making, Sprints*
 * [User Stories](#UserCases) -*Developer Stories, User's Stories*
 * [Risk Analysis](#Risk) 
-* [Technologies Used](#Technology)-*Ansible, Azure, Git, Jenkins, Kubernetes, Terraform, Nginx* 
+* [Technologies Used](#Technology) -*Ansible, Azure, Git, Jenkins, Kubernetes, Terraform, Nginx* 
 * [Testing](#Testing)
-* [Deployment](#Deployment)
+* [Deployment](#Deployment) -*Ansible, Terraform, Kubernetes*
 * [Costs](#Costs) 
 * [Project Conclusion](#Conclusion)  
 
