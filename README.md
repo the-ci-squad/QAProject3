@@ -143,6 +143,9 @@ Kubernetes is a container-orchestration system for automating application deploy
 
 <a name="Costs"></a>
 ## Costs 
+To run the development environment we estimate a total of £31.80 a month based on how much has been spent by the time of finishing the project.
+To run the deployment environment we estimate it will cost a total of £30.60 a month based on how much was pent by the time of finishing the project 
+
 
 <a name="Conclusion"></a>
 ## Project Conclusion
