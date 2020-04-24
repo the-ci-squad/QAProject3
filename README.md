@@ -127,7 +127,7 @@ During the decision making process was driven by Trainer Jay Grindrod acting as 
 <a name="Testing"></a>
 ## Testing
 #### *Test results for backend*
-![](https://github.com/the-ci-squad/QAProject3/blob/tino_terraform_ansible/README_FILES/test%20result.PNG)
+![](https://github.com/the-ci-squad/QAProject3/blob/master/README_FILES/test%20result.PNG)
 
 <a name="Deployment"></a>
 ## Deployment
