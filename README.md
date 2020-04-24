@@ -135,7 +135,7 @@ Ansible is used to configure the dependencies required to have functional develo
 Terraform is used to create and deploy infrastructure on a large scale. Terraform is used to define the development environment, deployment environment, load balancing and CI machines
 
 #### *Kubernetes*
-
+Kubernetes is a container-orchestration system for automating application deployment and scaling
 
 
 <a name="Costs"></a>
