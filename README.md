@@ -144,7 +144,9 @@ Kubernetes is a container-orchestration system for automating application deploy
 <a name="Costs"></a>
 ## Costs 
 To run the development environment we estimate a total of £31.80 a month based on how much has been spent by the time of finishing the project.
-To run the deployment environment we estimate it will cost a total of £30.60 a month based on how much was pent by the time of finishing the project 
+To run the deployment environment we estimate it will cost a total of £30.60 a month based on how much was pent by the time of finishing the project.
+The cost for running the Kubernetes cluster is estimated at £44.00 for a month based on the figures collected by the finishing of the project.
+This takes the total running cost to approximately £106.40 to run the project a month, this could possibly be higher or lower depending on traffic, changes in VM costs, number of Nodes deployed by Kubernetes
 
 
 <a name="Conclusion"></a>
