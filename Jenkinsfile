@@ -9,7 +9,7 @@ pipeline{
                       rm -rf QAProject3
                       git clone --single-branch --branch stef-develop https://github.com/the-ci-squad/QAProject3
                       cd QAProject3/petclinic/spring-petclinic-backend/spring-petclinic-rest/
-                      mvn test
+             
                        """
                 }
              }
@@ -23,12 +23,10 @@ pipeline{
                       sudo apt install -y kubectl
                       sudo az aks install-cli
                       cd QAProject3/petclinic/kubernetes-petclinic
-                      kubectl apply -f api.yml
-                      kubectl apply -f front.yml
-                      kubectl scale deployments/api --replicas=3 
-                      kubectl scale deployments/front --replicas=3
-                   
- 
+                      sudo kubectl apply -f api.yml
+                      sudo kubectl apply -f front.yml
+                      sudo kubectl scale deployments/api --replicas=3 
+                      sudo kubectl scale deployments/front --replicas=3
                  
                       """
                }
