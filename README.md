@@ -12,8 +12,7 @@
 * [Testing](#Testing)
 * [Deployment](#Deployment)
 * [Costs](#Costs) 
-* [Project Conclusion](#Conclusion) 
-* [Future Work](#FutureWork) 
+* [Project Conclusion](#Conclusion)  
 
 
 <a name="Introduction"></a>
@@ -126,12 +125,22 @@ During the decision making process was driven by Trainer Jay Grindrod acting as 
 <a name="Testing"></a>
 ## Testing
 
+
 <a name="Deployment"></a>
 ## Deployment
+#### *Ansible*
+Ansible is used to configure the dependencies required to have functional development and deployment envirnoments.Used within the continuous integration aspect of the project, sets up the environment by downloading and installing certain packages before deployment of the machine/environment. This was used to set up the CI Server used for Jenkins deployment, machines with the databases requirements and initialisation, Docker installation, Kubernetes, load balancing with Nginx and common installastions needing on every machine with our project 
+
+#### *Terraform*
+Terraform is used to create and deploy infrastructure on a large scale. Terraform is used to define the development environment, deployment environment, load balancing and CI machines
+
+#### *Kubernetes*
+
+
 
 <a name="Costs"></a>
 ## Costs 
 
 <a name="Conclusion"></a>
 ## Project Conclusion
-
+As a team we were able to utilise our planned technologies and applied our transferable skills to different unfamiliar technology suchas Maven and AngularJS. We created multiple environments for development, for deployment and load balancing in accordance with our planned pipeline. The creation using Ansible, Terraform and Kubernetes all went according to planned though there were issues faced along the way as there parts of the original source code that we were not familiar with. The tasks were handled well by the assigned team members and with what we were able to complete we are satisfied with its performance and our own performance during this task. 
