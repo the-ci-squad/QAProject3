@@ -6,9 +6,10 @@ pipeline{
                 steps{
                       sh """
                       ssh -i ~/id_rsa app-dev@51.145.17.150 <<EOF
-                      ls 
-                    
-                   
+                      rm -rf QAProject3
+                      git clone --single-branch --branch stef-develop https://github.com/the-ci-squad/QAProject3
+                      cd QAProject3/petclinic/spring-petclinic-backend/spring-petclinic-rest/
+                      mvn test
                        """
                 }
              }
