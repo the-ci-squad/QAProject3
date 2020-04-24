@@ -43,7 +43,7 @@ Terraform is being used to actively create the Virtual Machines through the Azur
 
 #### *Pipeline*
 
-![](https://github.com/the-ci-squad/QAProject3/blob/tino_terraform_ansible/README_FILES/INITAL-CI-PIPELINE-DESIGN.jpg)
+![](https://github.com/the-ci-squad/QAProject3/blob/tino_terraform_ansible/README_FILES/FINAL-CI-PIPELINE-DESIGN.png)
 
 
 <a name="planning"></a>
