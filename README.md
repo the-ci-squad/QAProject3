@@ -150,8 +150,8 @@ As a team we were able to utilise our planned technologies and applied our trans
 
 <a name="authors"></a>
 ## Authors
-**Ben, just Ben**
+Benjie, Tino, Stef and Harman
 
 <a name="acknowledgment"></a>
 ## Acknowledgments
-- *Our Families, Jay and Everyone else * Thanks for all the help and support
+- *Our Families, Jay and Everyone else* Thanks for all the help and support
