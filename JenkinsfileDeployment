@@ -24,9 +24,7 @@ pipeline{
                       kubectl apply -f front.yml
                       kubectl scale deployments/api --replicas=3 
                       kubectl scale deployments/front --replicas=3
-                   
- 
-                 
+                  
                       """
                }
             }
