@@ -13,6 +13,8 @@
 * [Deployment](#Deployment) -*Ansible, Terraform, Kubernetes*
 * [Costs](#Costs) 
 * [Project Conclusion](#Conclusion)  
+* [Authors](#Author)
+* [Acknowledgement](#acknowledgment)
 
 
 <a name="Introduction"></a>
@@ -144,3 +146,11 @@ Kubernetes is a container-orchestration system for automating application deploy
 <a name="Conclusion"></a>
 ## Project Conclusion
 As a team we were able to utilise our planned technologies and applied our transferable skills to different unfamiliar technology suchas Maven and AngularJS. We created multiple environments for development, for deployment and load balancing in accordance with our planned pipeline. The creation using Ansible, Terraform and Kubernetes all went according to planned though there were issues faced along the way as there parts of the original source code that we were not familiar with. The tasks were handled well by the assigned team members and with what we were able to complete we are satisfied with its performance and our own performance during this task. 
+
+<a name="authors"></a>
+## Authors
+**Ben, just Ben**
+
+<a name="acknowledgment"></a>
+## Acknowledgments
+- *Our Families, Jay and Everyone else * Thanks for all the help and support
